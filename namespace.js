@@ -16,8 +16,8 @@ var GUER0157 = {
         boxes.appendChild(box);
 
         // Add Event Listeners
-        box.addEventListener('mouseover', mouseOverOut);
-        box.addEventListener('mouseout', mouseOverOut);
+        box.addEventListener('mouseover', mouseOver);
+        box.addEventListener('mouseout', mouseOut);
         box.addEventListener('click', mouseClick);
         
         function mouseOver (event) {        
