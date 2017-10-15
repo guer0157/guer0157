@@ -20,7 +20,9 @@ var GUER0157 = {
         box.addEventListener('mouseout', mouseOverOut);
         box.addEventListener('click', mouseClick);
         
-        function mouseOverOut (event) {        
+        function mouseOver (event) {        
+            event.currentTarget.classList.toggle('highlight');
+        }function mouseOut (event) {        
             event.currentTarget.classList.toggle('highlight');
         }
 
