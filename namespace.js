@@ -1,7 +1,7 @@
 
 var GUER0157 = {
 
-    function init () {
+    init: function () {
 
         // Append The Div
         var box = document.createElement('div');
